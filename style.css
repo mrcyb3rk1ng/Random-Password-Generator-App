@@ -1,0 +1,100 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+   text-align: center;
+   width: 80%;
+   background-color: #42445A;
+   padding: 25px 10px;
+   margin: 25px auto;
+   border-radius: 8px;
+   color: white;
+}
+
+input[type="number"] {
+   width: 90%;
+   height: 35px;
+   font-size: 16px;
+   border: none;
+   border-radius: 4px;
+   box-sizing: border-box;
+   padding: 0 10px;
+}
+
+input[type="number"]:focus{
+   outline: none;
+}
+
+#generateBtn{
+   width: 90%;
+   height: 35px;
+   border-radius: 4px;
+   color: white;
+   background-color: dodgerblue;
+   border: none;
+   display: inline-block;
+   margin: 10px 0;
+   font-weight: 500;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.passwordShowArea{
+   width: 90%;
+   height: 35px;
+   border-radius: 4px;
+   background-color: white;
+   border: none;
+   display: flex;
+   margin: auto;
+   align-items: center;
+   justify-content: space-between;
+   box-sizing: border-box;
+   padding: 0 2.5px;
+}
+
+#showPassword{
+   width: 70%;
+   border: none;
+   border-radius: 4px;
+   font-size: 16px;
+   text-align: center;
+}
+
+#showPassword:focus{
+   outline: none;
+}
+
+#showPassword::selection{
+   background: none;
+}
+
+#copyBtn{
+   width: 20%;
+   border: none;
+   height: 30px;
+   background-color: dodgerblue;
+   color: white;
+   border-radius: 4px;
+   text-align: center;
+   font-weight: 500;
+   cursor: pointer;
+}
+
+.copyr8{
+   font-size: 13px;
+   margin-top: 20px;
+}
+
+.copyr8 a{
+   color: dodgerblue;
+}
+
+@media screen and (min-width : 600px){
+  .container{
+     max-width: 400px;
+  }
+}
