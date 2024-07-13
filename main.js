@@ -27,6 +27,10 @@ generateBtn.onclick = () => {
         if (showPassword.value !== "") {
            showPassword.select();
            document.execCommand('copy');
+          
+           //we also can copy the password using the method given below
+           //navigator.clipboard.writeText(password);
+
            alert("The password has been copied to clipboard!");
         } else {
            alert("Please, Generate password first!")
